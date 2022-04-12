@@ -1,0 +1,10 @@
+.carousel{
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height:auto;
+}
+
+.carousel-caption{
+    color:rgb(4, 31, 22);
+}

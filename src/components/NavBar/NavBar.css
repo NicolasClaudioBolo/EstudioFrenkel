@@ -1,0 +1,42 @@
+.NavBar{
+    background-color: rgb(179, 235, 216);
+    width:100vw;
+    position: sticky;
+}
+
+.Center{
+    text-align: center;
+}
+
+.Button{
+    margin-right:5vw;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    background-color: aquamarine;
+    color:rgb(11, 83, 59);
+    border-style: none;
+}
+
+.Button:hover{
+    background-color: rgb(0, 255, 179);
+    color:rgb(11, 83, 59);
+    border-style: none;
+}
+
+.btn-secondary{
+    background-color: aquamarine;
+    color:rgb(11, 83, 59);
+    border-color: rgb(11, 83, 59);
+}
+
+.btn-secondary:focus{
+    background-color: rgb(0, 255, 179);
+    color:rgb(11, 83, 59);
+    border-color: rgb(11, 83, 59);
+}
+
+.Icon{
+    width:70px;
+    height:70px;
+    padding:2vh;
+}
