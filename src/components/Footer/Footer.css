@@ -1,0 +1,15 @@
+.Footer{
+    justify-content: space-around;
+    padding:10px;
+    background-color: #105652;
+    text-decoration: none;
+}
+
+.NavLink{
+    color:rgb(33, 33, 33);
+}
+
+.linkLogo{
+    height: 25px;
+    width: 25px;
+}

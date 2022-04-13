@@ -1,42 +1,47 @@
 .NavBar{
-    background-color: rgb(179, 235, 216);
-    width:100vw;
-    position: sticky;
+    background-color: #DFD8CA;
 }
 
-.Center{
-    text-align: center;
+.Link{
+    text-decoration: none;
+    color:rgb(33, 33, 33);
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.Button{
-    margin-right:5vw;
-    margin-top:2vh;
-    margin-bottom:2vh;
-    background-color: aquamarine;
-    color:rgb(11, 83, 59);
-    border-style: none;
+.Link:hover{
+    color:rgb(84, 84, 84)
 }
 
-.Button:hover{
-    background-color: rgb(0, 255, 179);
-    color:rgb(11, 83, 59);
-    border-style: none;
+.NavbarBrand{
+    background-color: #B91646;
+    
 }
 
-.btn-secondary{
-    background-color: aquamarine;
-    color:rgb(11, 83, 59);
-    border-color: rgb(11, 83, 59);
+.Logo{
+    padding:3vw 3vh;
+    color:white;
+    font-weight:lighter;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 6px;
 }
 
-.btn-secondary:focus{
-    background-color: rgb(0, 255, 179);
-    color:rgb(11, 83, 59);
-    border-color: rgb(11, 83, 59);
+.Logo:hover{
+    color:white;
 }
 
-.Icon{
-    width:70px;
-    height:70px;
-    padding:2vh;
+.carousel-caption{
+    font-size: larger;
+    font-weight: 400;
+    color:white;
+}
+
+.navbar-toggler{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.NavItem{
+    margin-left: 2vw;
 }

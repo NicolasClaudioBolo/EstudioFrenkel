@@ -1,0 +1,14 @@
+.ContactLogo{
+    margin-top:10vw;
+    margin-bottom: 10vw;
+    height: 100px;
+    width: 100px;
+    border-style: none;
+}
+.Grid{
+    margin-left: 35vw;
+    width: 60vw;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+}

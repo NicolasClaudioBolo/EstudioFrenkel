@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption} from 'reactstrap';
+import '../NavBar/NavBar.css'
 const items = [
   {
     src: require('../../assets/1Despidos.jpg'),
@@ -121,8 +122,8 @@ class Fotos extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} className='img-fluid d-block w-100' />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <img src={item.src} alt={item.altText} className='img-fluid w-100' />
+          <CarouselCaption captionHeader={item.caption}/>
         </CarouselItem>
       );
     });
