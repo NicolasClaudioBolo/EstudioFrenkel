@@ -1,0 +1,17 @@
+.Card{
+    margin:2vw;
+}
+
+.btn-secondary{
+    color:white;
+    background-color: #B91646;
+    border-color:#105652;
+}
+
+.btn-secondary:hover{
+    background-color: #b74b6b;
+}
+
+.btn-secondary:focus{
+    background-color: #b74b6b;
+}

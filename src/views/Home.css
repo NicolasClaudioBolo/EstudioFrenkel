@@ -1,11 +1,18 @@
 .carousel{
     text-align: center;
     justify-content: center;
-    width: 80vw;
-    margin-left: 10vw;
+    width: 90vw;
+    margin-left: 5vw;
     height:auto;
+    margin-top: 22vh;
 }
 
-.carousel-caption{
-    color:rgb(4, 31, 22);
+
+.carousel-caption h3{
+    font-size: 35px;
+    font-weight: 400;
+    color:rgb(0, 0, 0);
+    background-color: rgb(223, 216, 202, 0.5);
+    padding:1px;
+    margin:0;
 }

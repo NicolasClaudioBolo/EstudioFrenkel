@@ -1,4 +1,16 @@
 .App {
   text-align: center;
   background-color: #FBF3E4;
+  min-height: 100vh;
+}
+
+.carousel-indicators{
+  margin-bottom: 0 !important;
+  color: rgb(0, 0, 0, 0);
+}
+
+.carousel-indicators [data-bs-target]{
+  text-indent: 0 !important;
+  color: rgb(0, 0, 0, 0);
+  font-size: 1px;
 }

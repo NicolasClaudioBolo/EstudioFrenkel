@@ -1,4 +1,4 @@
-.ContactLogo{
+/* .ContactLogo{
     margin-top:10vw;
     margin-bottom: 10vw;
     height: 100px;
@@ -11,4 +11,16 @@
     justify-content: space-around;
     display: grid;
     grid-template-columns: 10rem 10rem 10rem 10rem;
+} */
+
+.Form{
+    width: 65vw;
+    margin-top: 35vh;
+    margin-left: 20vw;
+}
+
+.Button{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 13vw;
 }

@@ -3,6 +3,12 @@ import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCap
 import '../NavBar/NavBar.css'
 const items = [
   {
+    src: require('../../assets/Justicia.jpg'),
+    key: 0,
+    altText: 'Nos especializamos en:',
+    caption: 'Nos especializamos en:'
+  },
+  {
     src: require('../../assets/1Despidos.jpg'),
     key: 1,
     altText: 'Despidos',
@@ -120,8 +126,7 @@ class Fotos extends Component {
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
-          key={item.src}
-        >
+          key={item.src}>
           <img src={item.src} alt={item.altText} className='img-fluid w-100' />
           <CarouselCaption captionHeader={item.caption}/>
         </CarouselItem>
@@ -132,8 +137,7 @@ class Fotos extends Component {
       <Carousel
         activeIndex={activeIndex}
         next={this.next}
-        previous={this.previous}
-      >
+        previous={this.previous}>
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
