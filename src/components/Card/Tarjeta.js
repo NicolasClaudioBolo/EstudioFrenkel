@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardGroup, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button } from 'reactstrap';
+import { CardGroup, Card, CardImg, CardBody, CardTitle, CardText, Button } from 'reactstrap';
 import './Tarjeta.css'
 import img1 from '../../assets/1Despidos.jpg'
 import img2 from '../../assets/2TrabajoEnNegro.jpg'
@@ -30,7 +30,7 @@ const Tarjeta = () => {
                     Despidos
                 </CardTitle>
                 <CardText>
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                Si te despidieron o te dejaron sin trabajo te tienen que indemnizar. Contactanos, calcularemos sin costo lo que te corresponde y te ayudaremos a obtenerlo.
                 </CardText>
                 <Button>
                     Ver más
@@ -49,7 +49,7 @@ const Tarjeta = () => {
                     Trabajo en negro
                 </CardTitle>
                 <CardText>
-                    This card has supporting text below as a natural lead-in to additional content.
+                Si sos monotributista, no te dan recibos de sueldo o te pagan parte del sueldo "en mano" es muy probable que tu empleador no esté respetando tus derechos laborales. Contactanos para corregir la situación o reclamar las indemnizaciones que te corresponden.
                 </CardText>
                 <Button>
                     Ver más
@@ -68,7 +68,7 @@ const Tarjeta = () => {
                     Accidentes laborales
                 </CardTitle>
                 <CardText>
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                Si te accidentás o sufrís una enfermedad que te impide trabajar, contactanos y te asesoraremos en la mejor manera de proceder.
                 </CardText>
                 <Button>
                     Ver más
@@ -148,7 +148,7 @@ const Tarjeta = () => {
                     Diferencia salarial
                 </CardTitle>
                 <CardText>
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                Cada actividad, oficio o profesión tiene sus particularidades, escalas salariales y adicionales. Contactanos para analizar si te están pagando correctamente o reclamar lo que te corresponde.
                 </CardText>
                 <Button>
                     Ver más
@@ -186,7 +186,7 @@ const Tarjeta = () => {
                     Horas extra impagas
                 </CardTitle>
                 <CardText>
-                    This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                Si te quedás trabajando después de hora, si trabajás los fines de semana o feriados, te corresponde el pago de horas extras. Consultanos.
                 </CardText>
                 <Button>
                     Ver más

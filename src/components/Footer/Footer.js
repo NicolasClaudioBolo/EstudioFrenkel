@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css'
 import img from '../../assets/whatsapp.png'
 import img2 from '../../assets/gmail.png'
+import Up from '../Up/Up';
 
 const Footer = () => {
   return (
@@ -23,6 +24,7 @@ const Footer = () => {
             <img src={img2} className='linkLogo'/>
           </NavLink>
         </NavItem>
+        <Up />
       </Nav>
 </div>
   )

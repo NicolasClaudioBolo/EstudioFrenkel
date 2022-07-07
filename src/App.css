@@ -3,7 +3,9 @@
   background-color: #FBF3E4;
   min-height: 100vh;
 }
-
+.MarginTop{
+  margin-top: 20vh;
+}
 .carousel-indicators{
   margin-bottom: 0 !important;
   color: rgb(0, 0, 0, 0);

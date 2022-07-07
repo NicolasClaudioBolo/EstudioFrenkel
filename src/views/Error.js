@@ -4,7 +4,7 @@ import '../App.css'
 const Error = () => {
   return (
     <div>
-      <h1 className='App'>
+      <h1 className='App MarginTop'>
           ERROR 404
           Página no encontrada
       </h1>
