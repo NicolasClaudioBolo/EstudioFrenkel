@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../views/Contact.css'
-import { Col, Button, Form, FormGroup, Input } from 'reactstrap';
+import { Button, Col, Form, FormGroup, Input } from 'reactstrap';
 
 export default class Example extends React.Component {
   render() {
@@ -23,7 +23,11 @@ export default class Example extends React.Component {
         </FormGroup>
         <FormGroup check row>
           <Col sm={{ size: 10, offset: 2 }}>
-            <Button className='Button'>Submit</Button>
+            <Button>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nicolascbolo@gmail.com" target="blank">
+              {/* <Button className='Button'>Submit</Button> */} Submit
+            </a>
+            </Button>
           </Col>
         </FormGroup>
       </Form>

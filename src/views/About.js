@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <h3 className='EstiloTexto'>
-      Somos abogados recibidos en la Universidad de Buenos Aires, nos especializamos en la defensa integral de los trabajadores, bla bla bla
+      
 
       </h3>
       <Card>

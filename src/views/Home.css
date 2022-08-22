@@ -1,12 +1,10 @@
 .carousel{
     text-align: center;
     justify-content: center;
-    width: 90vw;
-    margin-left: 5vw;
+    width: 100vw;
     height:auto;
     margin-top: 22vh;
 }
-
 
 .carousel-caption h3{
     font-size: 35px;
@@ -16,3 +14,10 @@
     padding:1px;
     margin:0;
 }
+
+/* .work-card-grid{ 
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+} */

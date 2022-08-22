@@ -2,8 +2,8 @@ import React from 'react'
 import { Nav, NavItem, NavLink } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css'
-import img from '../../assets/whatsapp.png'
-import img2 from '../../assets/gmail.png'
+import whatsappImg from '../../assets/whatsapp.png'
+import gmailImg from '../../assets/gmail.png'
 import Up from '../Up/Up';
 
 const Footer = () => {
@@ -13,15 +13,18 @@ const Footer = () => {
         <NavItem>
           <NavLink
             active
-            href="#"
-            className='NavLink'>
-            <img src={img} className='linkLogo'/>
+            href="
+            https://api.whatsapp.com/send?phone=5491158452656&text=Hola,%20le%20escribo%20por%20la%20siguiente%20consulta:
+            "
+            className='NavLink'
+            target='_blank'>
+            <img src={whatsappImg} className='linkLogo' alt='whatsapp'/>
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#"
+          <NavLink href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=alfonsofrenkel@gmail.com" target="blank"
           className='NavLink'>
-            <img src={img2} className='linkLogo'/>
+            <img src={gmailImg} className='linkLogo' alt='gmail'/>
           </NavLink>
         </NavItem>
         <Up />
