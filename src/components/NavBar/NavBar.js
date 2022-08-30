@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink} from 'reactstrap';
 import gmailImg from '../../assets/gmail.png'
 import whatsappImg from '../../assets/whatsapp.png'
+import DropdownBtn from '../DropdownBtn/DropdownBtn';
 import './NavBar.css'
 
 function NavBar(props) {
@@ -12,7 +13,7 @@ function NavBar(props) {
   
     return (
       <div>
-        <Navbar color="faded" light className='NavBar'>
+        <Navbar light className='NavBar'>
           <NavbarBrand className="mr-auto NavbarBrand">
             <Link to='/' className='Link Logo'>Estudio Frenkel</Link>
           </NavbarBrand>
@@ -33,10 +34,10 @@ function NavBar(props) {
               <img src={gmailImg} className='linkLogo' alt='gmail'/>
             </NavLink>
           </NavItem>
-          <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+          <NavbarToggler onClick={toggleNavbar} className="mr-2 mt-4" />
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>
-              <NavItem className='NavItem'>
+              <NavItem className='NavItem' onClick={toggleNavbar}>
                 <Link to="/views/About" className='Link'>Acerca de nosotros</Link>
               </NavItem>
               {/* <NavItem className='NavItem'>

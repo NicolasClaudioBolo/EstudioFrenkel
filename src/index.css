@@ -26,7 +26,7 @@ code {
   z-index: 20;
 }
 .icon-style{
-  background-color: #551B54;
+  background-color: #B91646;
   border: 2px solid #fff;
   border-radius: 50%;
   height: 50px;
@@ -39,21 +39,21 @@ code {
 .icon-style:hover{
   animation: none;
   background: #fff;
-  color: #551B54;
-  border: 2px solid #551B54;
+  color: #B91646;
+  border: 2px solid #B91646;
 }
 @keyframes movebtn {
   0%{
     transform: translateY(0px);
   }
   25%{
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
   50%{
     transform: translateY(0px);
   }
   75%{
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100%{
     transform: translateY(0px);

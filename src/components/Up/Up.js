@@ -1,33 +1,11 @@
-// import React from 'react'
-// import './Up.css'
-// import img from '../../assets/Up.png'
-// import { Link } from 'react-router-dom'
-
-// const Up = () => {
-//   return (
-//     <div className='CentrarGadget'>
-//         <a href='/'>
-//             <img src={img} className='Up'></img>
-//         </a>   
-//     </div>
-//   )
-// }
-
-// export default Up
-
 import React, {useState, useEffect} from 'react';
 import { FaAngleUp } from 'react-icons/fa';
-import "../../index.css"
-
-
-
-
 
 const Up = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
     useEffect(() => {
       window.addEventListener('scroll', () => {
-        if (window.scrollY > 400) {
+        if (window.scrollY > 768) {
             setShowTopBtn(true);
         } else {
             setShowTopBtn(false);

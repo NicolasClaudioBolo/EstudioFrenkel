@@ -36,13 +36,15 @@ const Work = () => {
         }
     ]
     return (
-        <div>
-            {cards.map((job, i)=>{
+        <div class='container' marginTop={"160px"}>
+            <div class='row'>
+                {cards.map((job, i)=>{
 
-             return <Container className='my-5'>
-                        <WorkCard job={job} key={i} />
-                    </Container>
-            })}
+                return <div className='my-5 col-md-4 col-sm-12'>
+                            <WorkCard job={job} key={i} />
+                        </div>
+                })}
+            </div>
         </div>
         )
 }

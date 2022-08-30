@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardGroup, Card, CardImg, CardBody, CardTitle, CardText, Container } from 'reactstrap';
+import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
 import './WorkCard.css'
 
 const WorkCard = ({job}) => {
@@ -16,10 +16,10 @@ const WorkCard = ({job}) => {
                 width="100%"
                 />
                 <CardBody>
-                  <CardTitle tag="h2">
+                  <CardTitle tag="h3">
                       {work.title}
                   </CardTitle>
-                  <CardText tag="h5">
+                  <CardText tag="p">
                       {work.description}
                   </CardText>
                 </CardBody>
