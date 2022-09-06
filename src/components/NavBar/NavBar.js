@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink} from 'reactstrap';
 import gmailImg from '../../assets/gmail.png'
 import whatsappImg from '../../assets/whatsapp.png'
-import DropdownBtn from '../DropdownBtn/DropdownBtn';
 import './NavBar.css'
 
 function NavBar(props) {
@@ -40,9 +39,6 @@ function NavBar(props) {
               <NavItem className='NavItem' onClick={toggleNavbar}>
                 <Link to="/views/About" className='Link'>Acerca de nosotros</Link>
               </NavItem>
-              {/* <NavItem className='NavItem'>
-                <Link to="/views/Contact" className='Link'>Contacto</Link>
-              </NavItem> */}
             </Nav>
           </Collapse>
         </Navbar>

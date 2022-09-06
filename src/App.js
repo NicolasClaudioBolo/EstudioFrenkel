@@ -2,7 +2,6 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Up from './components/Up/Up';
 import Home from './views/Home';
 import About from './views/About';
 import Error from './views/Error';
@@ -17,7 +16,6 @@ const App = () => {
                 <Route path='/views/About' element={<About />}/>
                 <Route path='/*' element={<Error />}/>
               </Routes>
-              {/* <Up /> */}
             <Footer/>
           </Router>
   );
